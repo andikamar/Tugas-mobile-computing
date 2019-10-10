@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "25630188908",
+    "firebase_url": "https://tugas-mobile-computing.firebaseio.com",
+    "project_id": "tugas-mobile-computing",
+    "storage_bucket": "tugas-mobile-computing.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:25630188908:android:525987a2edbc90e52d3f49",
+        "android_client_info": {
+          "package_name": "net.dika.tugasmc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "25630188908-d1rt5ugj2d8gbp0lvgbrm2g6sv0ag3jf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "net.dika.tugasmc",
+            "certificate_hash": "17fbe3a2c9c3761db16508beaa0a96f5fc275fed"
+          }
+        },
+        {
+          "client_id": "25630188908-q42cornu5s8k5cb3r7pllks3fggkop4q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCONDs-YA9BwNbE1iruO8d_qIPVulKxXZA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "25630188908-q42cornu5s8k5cb3r7pllks3fggkop4q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

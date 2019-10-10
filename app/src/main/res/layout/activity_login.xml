@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".Login">
+
+<TextView
+    android:id="@+id/textView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_marginTop="66dp"
+    android:textSize="30sp"
+    android:layout_centerHorizontal="true"
+    android:text="Halaman Login" />
+
+
+    <EditText
+    android:id="@+id/email"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_centerInParent="true"
+    android:layout_marginTop="145dp"
+    android:ems="10"
+    android:inputType="textEmailAddress"
+    android:hint="Email " />
+<EditText
+    android:id="@+id/password"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignStart="@+id/email"
+    android:layout_below="@+id/email"
+    android:ems="10"
+    android:inputType="textPassword"
+    android:hint="Password" />
+
+    <Button
+        android:id="@+id/btn_masuk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/email"
+        android:layout_below="@+id/password"
+        android:layout_marginEnd="-4dp"
+        android:layout_marginTop="24dp"
+        android:text="Masuk" />
+
+    <Button
+    android:id="@+id/btn_daftar"
+    android:layout_marginTop="50dp"
+    android:layout_centerHorizontal="true"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Daftar"
+    android:layout_below="@+id/btn_masuk"
+    />
+
+
+</RelativeLayout>
