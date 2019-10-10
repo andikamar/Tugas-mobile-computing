@@ -1,2 +1,2 @@
 # Tugas-mobile-computing
-Tugas Mengguanakn firebase, silahkan integrasikan firebasenya lalu copy file google-services.json
+Tugas Menggunakan firebase login, silahkan integrasikan firebasenya lalu copy file google-services.json ke project > app
